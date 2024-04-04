@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(160, 165, 3);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+header img{
+    width: 50px;
+}
+
+header h1{
+    font-size: 26px;
+}
+
+header a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+header a:hover{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+}
+
+.container4{
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 45px;
+}
+
+.produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 25px;
+}
+
+.imagem{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid rgb(160, 165, 3);
+}
+
+#img-1{
+    background-image: url('../imagens/Pulso.png');
+}
+
+#img-2{
+    background-image: url('../imagens/Parede.png');
+}
+
+#img-3{
+    background-image: url('../imagens/Digital2.png');
+}
+
+#img-4{
+    background-image: url('../imagens/Pulso2.jpg');
+}
+
+#img-5{
+    background-image: url('../imagens/Parede2.png');
+}
+
+#img-6{
+    background-image: url('../imagens/Relogio.jpg');
+}
+
+h3{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-left: 4px solid black;
+    padding-left: 7px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.card a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(90, 134, 24);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+footer{
+    background-color: rgb(160, 165, 3);
+    border-top: 3px solid black;
+    text-align: center;
+    padding: 85px;
+}
+
